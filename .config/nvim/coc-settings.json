@@ -1,0 +1,8 @@
+{
+	"rpc.workspaceElapsedTime": true,
+	"rpc.detailsEditing": "{workspace_folder}:{file_name} {problems}",
+	"rpc.detailsViewing": "In {workspace_folder}:{file_name} Lns:{total_lines}",
+	"rpc.lowerDetailsEditing": "The Battle Doll of Leidenschaftlich",
+	"rpc.lowerDetailsViewing": "Leidenschaftlich's Soldier Maiden",
+	"clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd"
+}

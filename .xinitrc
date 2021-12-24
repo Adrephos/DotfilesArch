@@ -60,16 +60,13 @@ sleep 5;feh --bg-fill --randomize ~/Pictures/Wallpaper/*
 # brightness
 xrandr --output eDP1 --brightness 0.7
 
-while true; do
-	xsetroot -name "$(date '+%b %d (%a) %H:%M%P') $(cat /sys/class/power_supply/BAT0/capacity)%"
-	sleep 30s
-done &
-
 # Autostart
 (sleep 5 && wmname LG3D) &
-(sleep 5 && slstatus) &
-(sleep 5 && flameshot) &
-(sleep 5 && ibus-daemon -drxR) &
-(sleep 5 && discord) &
+flameshot &
+slstatus &
+ibus-daemon -drxR &
+volumeicon &
+nm-applet &
+discord &
 
 exec dwm
