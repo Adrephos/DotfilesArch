@@ -26,7 +26,8 @@ colors:
     magenta: "#e628ba"
     cyan: "#99ccff"
     white: "#dedede"
-background_opacity: 0.8
+window:
+  opacity: 0.8
 font:
   normal:
     family: Noto Sans Mono
